@@ -23,7 +23,7 @@ import { compact, find, fill } from 'repture';
 ## Compact
 
 ### compact(array)
-```
+```javascript
 import { compact } from 'repture';
 compact([0, 3, false, [], 'a', `a` '', 3, {}]);
 // => [3, [], 'a', `a`, 3, {}]
