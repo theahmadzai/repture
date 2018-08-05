@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "diagnostics": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "target": "es5",
+    "module": "es6"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ]
+}

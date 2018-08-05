@@ -1,0 +1,23 @@
+{
+  "name": "repture",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Javed Ahmadzai <theahmadzai@hotmail.com>",
+  "license": "MIT",
+  "main": "dist/repture.js",
+  "scripts": {
+    "dev": "NODE_ENV=development rollup -c",
+    "prod": "NODE_ENV=production rollup -c",
+    "watch": "rollup -cw",
+    "test": "mocha",
+    "test:watch": "mocha --watch ./test ./dist"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "rollup": "^0.63.5",
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^3.0.1"
+  }
+}

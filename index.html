@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="./dist/repture.js"></script>
+  <script>
+    console.log(repture.slice([1, 2, 3, 4], 0, 2));
+    console.log(repture.concat([1, 2, 3], 1, [[2]], 2, [3], 33));
+    console.log(repture.compact([1, false, true, 3, "", "ja", 0]));
+    console.log(repture.fill([1, 2, 3, 4, 5, 6], '!', 3, 4));
+    console.log(repture.find([1, 6, 2, 3, 4], _ => _ >= 3));
+    console.log(repture.findIndex([1, 6, 2, 3, 4], _ => _ == 3));
+    console.log(repture.first([1, 2, 3], 2));
+    console.log(repture.last([1, 2, 3, 4], 2));
+    console.log(repture.head([1, 2, 3]));
+    console.log(repture.tail([1, 2, 3]));
+    console.log(repture.indexOf([1, 2, 4, 3, 4], 4));
+    console.log(repture.lastIndexOf([1, 2, 4, 3, 4], 4));
+    console.log(repture.join([1, 2, 3], '**'));
+    console.log(repture.reverse([1, 2, 3]));
+    console.log(repture.without([1, 2, 3,], 2));
+  </script>
+</body>
+
+</html>
