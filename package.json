@@ -1,14 +1,24 @@
 {
   "name": "repture",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Lightweight JavaScript ES6 based utility library",
+  "keywords": [
+    "utlity",
+    "helpers"
+  ],
   "author": "Javed Ahmadzai <theahmadzai@hotmail.com>",
   "license": "MIT",
   "main": "dist/repture.js",
+  "homepage": "https://github.com/theahmadzai/repture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theahmadzai/repture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theahmadzai/repture/issues"
+  },
   "scripts": {
-    "dev": "NODE_ENV=development rollup -c",
-    "prod": "NODE_ENV=production rollup -c",
+    "build": "rollup -c",
     "watch": "rollup -cw",
     "test": "mocha",
     "test:watch": "mocha --watch ./test ./dist"
